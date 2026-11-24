@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   us_west:
-    image: ghcr.io/meower-media/server:latest
+    image: ghcr.io/joshatticus/meower-server:latest
     hostname: server
     volumes:
       - /meower-data/server/.env:/app/.env:ro
